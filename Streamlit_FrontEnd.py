@@ -23,7 +23,7 @@ st.image("house.jpeg",width=700)
 
 num_dict={}
 obj_dict={}
-page = st.sidebar.selectbox("Explore Or Predict", ("features", "explore","Acronym and description",))
+page = st.sidebar.selectbox("Explore Or Predict", ("features", "explore"))
 
 
 if page == "features":
